@@ -1,0 +1,12 @@
+.noData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0;
+  padding: 20px;
+}
+
+.noData p {
+  color: var(--Medium-Gray);
+}

@@ -1,0 +1,75 @@
+.api {
+  background-color: var(--White);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+  border-radius: 8px;
+}
+
+.api p {
+  margin: 0;
+}
+
+.api span {
+  color: var(--Medium-Gray);
+  font-size: 12px;
+  width: fit-content;
+  font-weight: 400;
+  line-height: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.api span:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.api label {
+  width: 50%;
+  position: relative;
+}
+.api label svg {
+  position: absolute;
+  border-radius: 8px;
+  top: 50%;
+  left: 25px;
+  font-size: 20px;
+  color: var(--Medium-Gray);
+  transform: translateY(-50%);
+}
+.api label input {
+  color: var(--Black);
+  padding-inline-start: 60px;
+  border: none;
+  width: 100%;
+  height: 38px;
+}
+
+.api label input::placeholder {
+  font-weight: 500;
+  color: var(--Medium-Gray);
+}
+
+.filter {
+  color: var(--Black);
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.filter:hover {
+  font-size: 20px;
+}
+
+.line {
+  width: 2px;
+  height: 26px;
+  margin: auto 16px;
+  background-color: var(--Light-Gray);
+}

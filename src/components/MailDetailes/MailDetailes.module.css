@@ -1,0 +1,62 @@
+.Solved {
+  background-color: var(--Solved);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.Pending {
+  background-color: var(--Pending);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.Closed {
+  background-color: var(--Medium-Gray);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.Progress {
+  background-color: var(--primary-blue-300);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.Canceled {
+  background-color: var(--Canceled);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+}
+.head {
+  background-color: var(--Primary-blue-300);
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--White);
+  padding: 16px;
+  gap: 5px;
+}
+
+.nav div div {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 16px;
+  color: var(--Secondary-blue-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.nav div div:hover {
+  background-color: var(--light-blue-100);
+}
+
+.item p {
+  margin: 0;
+  font-weight: 700;
+}

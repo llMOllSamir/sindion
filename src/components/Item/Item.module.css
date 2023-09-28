@@ -1,0 +1,44 @@
+.item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid var(--Light-Gray);
+  height: 48px;
+  border-radius: 4px;
+  position: relative;
+}
+.item span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.item h5 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--Black);
+}
+
+.item h5 span {
+  font-size: 10px;
+  margin: 0;
+  color: var(--Medium-Gray);
+}
+
+.item svg {
+  color: var(--Medium-Gray);
+}
+
+.item:hover::before {
+  content: "";
+  position: absolute;
+  opacity: 0.12;
+  top: 6px;
+  bottom: 6px;
+  left: 6px;
+  right: 6px;
+  border: 4px;
+  background-color: var(--Primary-blue-300);
+}

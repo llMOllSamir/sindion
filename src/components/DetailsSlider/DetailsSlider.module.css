@@ -1,0 +1,114 @@
+.slider {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: var(--White);
+  overflow: auto;
+  padding: 12px;
+}
+.slider::-webkit-scrollbar {
+  background-color: var(--Medium-Gray);
+  width: 3px;
+  height: 0;
+}
+.slider::-webkit-scrollbar-thumb {
+  background-color: var(--Primary-blue-300);
+  border-radius: 4px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.head svg {
+  color: var(--Medium-Gray);
+  cursor: pointer;
+  margin-inline-end: 8px;
+  transition: all 0.5s;
+  font-size: 24px;
+}
+
+.head svg:hover {
+  color: var(--Dark-Gray);
+}
+
+.smCircle {
+  width: 32px;
+  height: 32px;
+  background-color: var(--Medium-Gray);
+  border-radius: 50%;
+  display: flex;
+  margin-inline: auto;
+  margin-top: 10px;
+}
+
+.Solved {
+  color: var(--Solved);
+  background-color: rgba(95, 217, 113, 0.1);
+}
+
+.Pending {
+  color: var(--Pending);
+  background-color: rgba(255, 211, 96, 0.1);
+}
+.Closed {
+  color: var(--Medium-Gray);
+  background-color: rgba(185, 188, 188, 0.1);
+}
+.Progress {
+  color: var(--primary-blue-300);
+  background-color: rgba(27, 103, 146, 0.1);
+}
+.Canceled {
+  color: var(--Canceled);
+  background-color: rgba(253, 81, 88, 0.1);
+}
+.btn {
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 12px;
+  width: 100%;
+}
+
+.item {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+}
+.item:hover {
+  background-color: var(--Medium-Gray);
+}
+
+.borderSolved {
+  border-left: 2px solid var(--Solved);
+}
+.borderPending {
+  border-left: 2px solid var(--Pending);
+}
+.borderClosed {
+  border-left: 2px solid var(--Medium-Gray);
+}
+.borderProgress {
+  border-left: 2px solid var(--Primary-blue-300);
+}
+.borderCanceled {
+  border-left: 2px solid var(--Canceled);
+}
+
+@media all and (min-width: 1050px) and (max-width: 1200px) {
+  .slider {
+    width: 192px;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .slider {
+    width: 160px;
+  }
+}

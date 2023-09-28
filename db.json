@@ -1,0 +1,152 @@
+{
+  "tickets": [
+    {
+      "subject": "Subject 1",
+      "from": "Business",
+      "to": "IT",
+      "status": "Pending",
+      "description": "Description 1",
+      "id": 4
+    },
+    {
+      "subject": "Subject 1",
+      "from": "Business",
+      "to": "IT",
+      "status": "Pending",
+      "description": "Description 1",
+      "id": 5
+    },
+    {
+      "subject": "Subject 1",
+      "from": "Business",
+      "to": "IT",
+      "status": "Pending",
+      "description": "Description 1",
+      "id": 6
+    },
+    {
+      "subject": "Subject 1",
+      "from": "Business",
+      "to": "IT",
+      "status": "Pending",
+      "description": "Description 1",
+      "id": 7
+    },
+    {
+      "subject": "Subject 1",
+      "from": "Business",
+      "to": "IT",
+      "status": "Closed",
+      "description": "Description 1",
+      "id": 8
+    },
+    {
+      "subject": "Mohamed",
+      "from": "HR",
+      "to": "IT",
+      "description": "i'm Gooood",
+      "status": "Canceled",
+      "id": 9
+    },
+    {
+      "subject": "Mohamed",
+      "from": "HR",
+      "to": "IT",
+      "description": "ssssss",
+      "status": "Solved",
+      "id": 10
+    },
+    {
+      "subject": "adasdasdas",
+      "from": "IT",
+      "to": "HR",
+      "description": "jjjjj",
+      "status": "In Progress",
+      "id": 11
+    },
+    {
+      "subject": "Mahmoud",
+      "from": "Business",
+      "to": "HR",
+      "description": "ssss",
+      "status": "Pending",
+      "id": 13
+    },
+    {
+      "subject": "Ellllll",
+      "from": "IT",
+      "to": "HR",
+      "description": "asadasdasd",
+      "status": "Pending",
+      "id": 14
+    },
+    {
+      "subject": "asd",
+      "from": "IT",
+      "to": "IT",
+      "description": "asdasdasd",
+      "status": "Pending",
+      "id": 15
+    },
+    {
+      "subject": "asdasd",
+      "from": "HR",
+      "to": "Business",
+      "description": "asdasdasd",
+      "status": "Pending",
+      "id": 17
+    },
+    {
+      "subject": "aaaa",
+      "from": "HR",
+      "to": "Business",
+      "description": "asdasdasd",
+      "status": "Pending",
+      "id": 18
+    },
+    {
+      "subject": "ddd",
+      "from": "IT",
+      "to": "HR",
+      "description": "ytdrtdktuftyfyt",
+      "status": "Pending",
+      "id": 19
+    }
+  ],
+  "departments": [
+    {
+      "name": "HR",
+      "id": 1
+    },
+    {
+      "name": "IT",
+      "id": 2
+    },
+    {
+      "name": "Business",
+      "id": 3
+    }
+  ],
+  "status": [
+    {
+      "name": "Solved",
+      "id": 1
+    },
+    {
+      "name": "In Progress",
+      "id": 2
+    },
+    {
+      "name": "Closed",
+      "id": 3
+    },
+    {
+      "name": "Pending",
+      "id": 4
+    },
+    {
+      "name": "Canceled",
+      "id": 5
+    }
+  ]
+}

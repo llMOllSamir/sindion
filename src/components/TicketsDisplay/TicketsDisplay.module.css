@@ -1,0 +1,9 @@
+.tickets {
+  background-color: var(--White);
+  display: flex;
+  height: 650px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+}

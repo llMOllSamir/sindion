@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --main-Font: "Roboto", sans-serif;
+  --Primary-blue-300: #1b6792;
+  --Secondary-blue-200: #009daa;
+  --light-blue-100: #d3fcff;
+  --Light-Gray: #f7f6f6;
+  --Medium-Gray: #b9bcbc;
+  --Dark-Gray: #616363;
+  --Solved: #5fd971;
+  --Pending: #ffd360;
+  --In-Progress: #5b8def;
+  --Canceled: #fd5158;
+  --Black: #001011;
+  --White: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: var(--main-Font);
+  background-color: var(--Light-Gray);
+}
+body::-webkit-scrollbar {
+  background-color: var(--Medium-Gray);
+  width: 10px;
+  height: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Primary-blue-300);
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}

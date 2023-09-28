@@ -1,0 +1,35 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  font-size: 1.5em;
+  height: 48px;
+  border-radius: 50%;
+  margin-inline-end: 5px;
+  border: 8px solid var(--light-blue-100);
+  background-color: var(--Secondary-blue-200);
+}
+.p {
+  color: var(--Medium-Gray);
+  font-size: 14px;
+}
+
+.date {
+  border: 1px;
+}
+
+.photo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed var(--Medium-Gray);
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.photo h6 {
+  margin: 0;
+  margin-inline-end: 6px;
+}
